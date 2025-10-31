@@ -5,10 +5,17 @@ Install:
  1. Disable Secure Boot in BIOS
  2. Boot into Windows
  3. Extract release zip into local drive in windows
- 4. This refind.conf is for Bazzite and Windows, if use SteamOS modify refind.conf "#" as below.
- <img width="337" height="123" alt="image" src="https://github.com/user-attachments/assets/e391bea0-dc97-4db8-a3be-d975d801e672" /><br>
+ 4. The refind.conf inside the zip should edit by hand for different usage.
+    <br>For SteamOS:<br>
+    <img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/add2354c-f080-497e-8dfb-3c379c2d09ff" />
+    <br>For Bazzite:<br>
+    <img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/f76e469e-9f76-4c59-b772-35417c866560" />
  5. Click Rog_rEFInd.bat to install rEFInd
 
 Usage:
  1. Use volume down to select boot OS
  2. Use volume up to enter OS
+
+
+Reference:
+ 1. rEFInd: https://www.rodsbooks.com/refind/
