@@ -1,6 +1,9 @@
 # Rog_rEFInd
 rEFInd for ROG Xbox Ally X
 
+<img width="1468" height="825" alt="Rog_rEFInd_Demo" src="https://github.com/user-attachments/assets/f8c47621-76eb-4014-b14c-c4d361eff476" />
+<br><br>
+
 Install:
  1. Disable Secure Boot in BIOS
  2. Boot into Windows
