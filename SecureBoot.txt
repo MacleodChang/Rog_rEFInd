@@ -1,0 +1,32 @@
+Notice: Bazzite supports Secure Boot but SteamOS doesn't
+
+1. Disable Secure Boot
+   A. Boot use Volume Down to Enter BIOS
+   B. Security -> Secure Boot -> Secure Boot Control -> Disabled
+   C. Security -> Secure Boot -> Expert Key Management -> Reset To Setup Mode
+   D. Save & Exit -> Save Changes and Exit
+    
+2. Switch Bazzite to desktop mode
+
+3. Ctrl+Alt+T open termial and use 'sudo -s' switch to root
+
+4. Install sbctl
+   A. dnf copr enable chenxiaolong/sbctl
+   B. rpm-ostree install sbctl
+   C. systemctl reboot (Reboot system)
+
+5. Sign EFI
+   A. sbctl create-keys
+   B. sbctl enroll-keys -m
+   C. sbctl sign -s /boot/efi/EFI/rEFInd/refind_rog.efi
+
+6. Bazzite
+   A. ujust enroll-secure-boot-key
+      See https://docs.bazzite.gg/General/Installation_Guide/secure_boot
+   B. Boot use Volume Up and select boot Fedora
+   C. Select Enroll MOK and enter password "universalblue"
+
+7. Enable Secure Boot
+   A. Boot use Volume Down to Enter BIOS
+   B. Security -> Secure Boot -> Secure Boot Control -> Enabled
+
