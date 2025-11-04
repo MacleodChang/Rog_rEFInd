@@ -19,8 +19,5 @@ Usage:
  1. Use volume down to select boot OS
  2. Use volume up to enter OS
 
-Secure Boot: (Only for Bazzite)
- 1. See SecureBoot.txt steps
-
 Reference:
  1. rEFInd: https://www.rodsbooks.com/refind/
