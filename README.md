@@ -16,8 +16,8 @@ Install:
  6. Click Rog_rEFInd.bat to install rEFInd
 
 Usage:
- 1. Use volume down to select boot OS
- 2. Use volume up to enter OS
+ 1. Use volume down to select boot OS and volume up to enter OS
+ 2. Use DPAD left/right to select boot OS and A to enter OS (UsbXbox360Dxe) 
 
 Reference:
  1. rEFInd: https://www.rodsbooks.com/refind/
