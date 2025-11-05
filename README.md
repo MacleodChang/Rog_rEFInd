@@ -9,11 +9,11 @@ Install:
  2. Boot into Windows
  3. Extract release zip into local drive in windows
  4. The refind.conf inside the zip should edit by hand for different usage.
-    <br>For SteamOS:<br>
-    <img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/add2354c-f080-497e-8dfb-3c379c2d09ff" />
     <br>For Bazzite:<br>
-    <img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/f76e469e-9f76-4c59-b772-35417c866560" />
- 5. Click Rog_rEFInd.bat to install rEFInd
+    <img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/979e0782-582c-4d13-a3fa-8d45005d575c" />
+    <br>For SteamOS:<br>
+    <img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/e2b934ff-ab47-4296-9dc0-5aee9082984f" />
+ 6. Click Rog_rEFInd.bat to install rEFInd
 
 Usage:
  1. Use volume down to select boot OS
