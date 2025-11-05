@@ -21,3 +21,4 @@ Usage:
 
 Reference:
  1. rEFInd: https://www.rodsbooks.com/refind/
+ 2. UsbXbox360Dxe: https://github.com/SkorionOS/UsbXbox360Dxe
