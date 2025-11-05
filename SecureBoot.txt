@@ -1,0 +1,40 @@
+Notice: Bazzite supports Secure Boot but SteamOS doesn't
+
+1. Rog_rEFInd should be installed from Windows
+
+2. Reset Secure Boot key
+   A. Boot use Volume Down to Enter BIOS
+   B. Security -> Secure Boot -> Secure Boot Control -> Enabled
+   C. Security -> Secure Boot -> Expert Key Management -> Reset To Setup Mode
+   D. Save & Exit -> Save Changes and Exit
+    
+3. Switch Bazzite to desktop mode
+   A. Boot into Bazzite
+   B. Menu -> Power -> Switch to Desktop
+
+4. Switch to root
+   A. Ctrl+Alt+T open termial and use 'sudo -s' switch to root
+   B. Default password 'bazzite'
+
+5. Bazzite secure boot
+   A. Use step 3. and 4. to open terminal
+   B. ujust enroll-secure-boot-key
+   C. systemctl reboot
+   D. Reboot and use Volume Up and select boot Fedora
+   E. Select Enroll MOK -> Continue -> Yes -> Enter password "universalblue" -> Reboot
+
+6. Install sbctl
+   A. Use step 3. and 4. to open terminal
+   B. dnf copr enable chenxiaolong/sbctl
+   C. rpm-ostree install sbctl
+   D. systemctl reboot
+
+7. Sign EFI
+   A. Use step 3. and 4. to open terminal
+   B. sbctl create-keys
+   C. sbctl enroll-keys -m
+   D. sbctl sign -s /boot/efi/EFI/rEFInd/refind_rog.efi
+   E. sbclt sign -s /boot/efi/EFI/rEFInd/drivers_x64/UsbXbox360Dxe.efi
+
+
+
