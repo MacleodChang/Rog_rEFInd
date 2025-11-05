@@ -17,7 +17,10 @@ Install:
 
 Usage:
  1. Use volume down to select boot OS and volume up to enter OS
- 2. Use DPAD left/right to select boot OS and A to enter OS (UsbXbox360Dxe) 
+ 2. Use DPAD left/right to select boot OS and A to enter OS (UsbXbox360Dxe)
+
+Optional:
+ 1. Secure Boot: https://github.com/MacleodTW/Rog_rEFInd/blob/main/SecureBoot.txt
 
 Reference:
  1. rEFInd: https://www.rodsbooks.com/refind/
