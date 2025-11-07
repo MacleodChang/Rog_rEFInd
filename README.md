@@ -23,5 +23,5 @@ Optional:
  1. Secure Boot: https://github.com/MacleodTW/Rog_rEFInd/blob/main/SecureBoot.txt
 
 Credit:
- 1. rEFInd: https://www.rodsbooks.com/refind/
- 2. UsbXbox360Dxe: https://github.com/SkorionOS/UsbXbox360Dxe
+ 1. rEFInd: https://www.rodsbooks.com/refind/ (Roderick W. Smith)
+ 2. UsbXbox360Dxe: https://github.com/SkorionOS/UsbXbox360Dxe (chenx-dust -> honjow)
