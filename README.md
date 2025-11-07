@@ -24,4 +24,4 @@ Optional:
 
 Credit:
  1. rEFInd: https://www.rodsbooks.com/refind/ (Roderick W. Smith)
- 2. UsbXbox360Dxe: https://github.com/SkorionOS/UsbXbox360Dxe (chenx-dust -> honjow)
+ 2. UsbXbox360Dxe: https://github.com/SkorionOS/UsbXbox360Dxe ([henx-dust](https://github.com/chenx-dust/UsbXbox360Dxe/commits?author=chenx-dust) -> [honjow](https://github.com/SkorionOS/UsbXbox360Dxe/commits?author=honjow))
